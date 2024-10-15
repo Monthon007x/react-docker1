@@ -24,7 +24,7 @@ export default function Navbar() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Monthon Homya 
           </Typography>
-          <Button color="inherit">Loginn</Button>
+          <Button color="inherit">Login</Button>
         </Toolbar>
       </AppBar>
     </Box>
