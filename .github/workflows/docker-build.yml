@@ -25,6 +25,6 @@ jobs:
     - name: Build Docker image
       run: docker build -t mikkielnwza007x/react-docker-test4:0.3 .
 
-    # ขั้นตอนที่สี่: Push Docker image ไปที่ Docker Hub
+    # ขั้นตอนที่สี่: Push Docker image ไปที่ Docker Hubb
     - name: Push Docker image to Docker Hub
       run: docker push mikkielnwza007x/react-docker-test4:0.3
